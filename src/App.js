@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import NavBar from './components/NavBar';
 import Footer from './components/Footer'
-import ProductBoxList from './cardform/ProductBoxList';
+import Login from './components/Login'
 
 
 function App() {
@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <NavBar/> <br/>
          <h1>Let's Shopping</h1>
-     <p><ProductBoxList/></p> <br/>
-
+         <Login/><br/>
+      <br/>
      <br/>
      <br/>
      <br/>
